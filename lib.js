@@ -2,7 +2,7 @@
  * @frederika_ (https://twitter.com/frederika_)
  */
 
-var u = window.local.href, elem;
+var u = window.location.href, elem;
 if (/union\/special_result\.php/.test(u)){
   // union again? 
   document.querySelector('form#union_data > p > a > img').click();
